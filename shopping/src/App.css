@@ -1,0 +1,109 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F18217;
+    padding: 10px 30px;
+}
+.logo {
+    background: url(/src/logoimage.jpeg);
+    width: 300px;
+    height: 75px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.menu {
+    color: black;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.menu:hover {
+    color: white;
+}
+.banner {
+    background: url(/src/img1.jpeg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.prodlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 30px 0;
+}
+.product {
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+.prodlist .img {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.prodlist .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.details {
+    text-align: center;
+}
+.details h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.details p {
+    font-size: 16px;
+}
+.details button {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.details button:hover {
+    background-color: rgb(15, 89, 226);
+}
+.btnremove {
+    background-color: red !important;
+    color: white;
+}
+.cart-product {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.cart-product .img {
+    width: 100px;
+    height: 100px;
+}
+.cart-product .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.footer {
+    background-color: #F18217;
+    padding: 15px 30px;
+    text-align: center;
+}

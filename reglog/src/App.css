@@ -1,0 +1,81 @@
+body {
+    background-color: beige;
+    margin: 0;
+}
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.form-group {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f1f9ff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+}
+.formborder {
+    border: none;
+    padding: 10px;
+}
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #258def;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+.submit-button:hover {
+    background-color: #0056b3;
+}
+.Success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+a {
+    color: #258def;
+    text-decoration: none;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+.dash {
+    text-align: center;
+    margin-top: 100px;
+}
